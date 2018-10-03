@@ -1,0 +1,20 @@
+- Para criar um novo level:
+
+1) Crie uma nova cena
+2) Utilize o prefab BaseGame
+
+
+
+- Para alterar o level:
+
+1) Para alterar os tempos do level, dentro do GameObject GameTimers é possível:
+	a) fadeCardTime: tempo para que a carta seja escondida ao falhar numa combinacao;
+	b) startCardTime: tempo para que a carta seja escondida no comeco do jogo;
+	c) endGameTime: tempo para que termine o jogo de modo derrotado.
+
+2) Para alterar o "tabuleiro" do jogo:
+	a) Para adicionar novas cartas no jogo: basta utilizar o prefab CardButton
+	e alterar sua respectiva imagem em CardImage. obs: O desenvolvedor deve tomar
+	cuidado para que sempre existam pares de imagens iguais.
+	b) Para alterar a ordem: basta arrastar os GameObjects CardButton no painel de 
+	Hieraquia do Unity.
