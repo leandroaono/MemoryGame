@@ -18,3 +18,5 @@
 	cuidado para que sempre existam pares de imagens iguais.
 	b) Para alterar a ordem: basta arrastar os GameObjects CardButton no painel de 
 	Hieraquia do Unity.
+
+Obs: Jogo testado na resolução 720x1280
