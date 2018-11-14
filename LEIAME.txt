@@ -7,7 +7,7 @@
 
 - Para alterar o level:
 
-1) Para alterar os tempos do level, dentro do GameObject GameTimers È possÌvel:
+1) Dentro do GameObject GameTimers √© poss√≠vel alterar as seguintes vari√°veis:
 	a) fadeCardTime: tempo para que a carta seja escondida ao falhar numa combinacao;
 	b) startCardTime: tempo para que a carta seja escondida no comeco do jogo;
 	c) endGameTime: tempo para que termine o jogo de modo derrotado.
@@ -19,4 +19,4 @@
 	b) Para alterar a ordem: basta arrastar os GameObjects CardButton no painel de 
 	Hieraquia do Unity.
 
-Obs: Jogo testado na resoluÁ„o 720x1280
+Obs: Jogo testado na resolu√ß√£o 720x1280
